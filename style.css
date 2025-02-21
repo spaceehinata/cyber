@@ -182,7 +182,6 @@ button:hover {
   padding: 0 10%;
 }
 
-/* Hero Content */
 .hero-content {
   width: 714px;
   text-align: left;
@@ -355,4 +354,64 @@ footer {
 .footer-icons {
   display: flex;
   gap: 36px;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    height: auto;
+  }
+
+  .footer {
+    transform: none;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-sec1 {
+    flex-direction: column;
+  }
+
+  .footer-section.about {
+    margin-top: 48px;
+    min-width: auto;
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  .footer-logo {
+    margin-bottom: 16px;
+  }
+
+  .footer-section p {
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 32px;
+  }
+
+  .footer-title {
+    font-size: 14px;
+  }
+
+  .footer-section ul {
+    align-items: center;
+  }
+
+  .footer-section ul li {
+    height: 32px;
+    gap: 8px;
+  }
+
+  .footer-icons {
+    margin-top: 16px;
+    gap: 25px;
+    margin-bottom: 48px;
+  }
 }
