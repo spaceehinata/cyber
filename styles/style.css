@@ -58,7 +58,7 @@
   margin-bottom: 24px;
 }
 
-.hero-content button {
+#shop-now {
   width: 191px;
   height: 56px;
   font-size: 16px;
@@ -70,7 +70,7 @@
   transition: all 0.3s ease;
 }
 
-.hero-content button:hover {
+#shop-now:hover {
   background: white;
   color: black;
 }
@@ -78,6 +78,103 @@
 .hero-mob-image img {
   display: none;
 }
+/* section 2 ragac fotoebi */
+.pop-pic {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 328px 272px;
+  overflow: hidden;
+}
+.pop-pic img {
+  align-self: center;
+}
+
+.pop-pic div {
+  display: flex;
+  align-content: center;
+}
+.pic-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: left;
+  gap: 8px;
+  margin-right: 48px;
+  margin-left: 44px;
+}
+.playstation {
+  grid-column: span 2;
+  overflow: hidden;
+}
+.macbook {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: #EDEDED;
+}
+.vision {
+  background-color: #353535 ;
+  color: #FFFFFF;
+}
+.airpod {
+  background-color: #EDEDED;
+}
+
+.pic-text p:first-of-type {
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 56px;
+}
+
+.pic-text p:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #909090;
+}
+.pop-pic span {
+  font-weight: 500;
+  font-size: 49px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+.airpod p:first-of-type,
+.vision p:first-of-type,
+.vision span,
+.airpod span {
+  line-height: 40px;
+  font-size: 29px;
+  font-weight: 500;
+}
+.airpod p:first-of-type,
+.vision p:first-of-type {
+  font-weight: 300;
+}
+
+.pic-text #shop-now {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: solid 1px #000000;
+  color: #000000;
+}
+.macbook span {
+  font-size: 64px;
+}
+.macbook .pic-text {
+  margin-inline: 56px 12px;
+}
+.vision .pic-text {
+  margin-left: 16px;
+}
+.airpod .pic-text {
+  margin-left: 48px;
+}
+#mob-pic{
+  display: none;
+}
+
 /* category section 3 */
 .category-section {
   width: 100%;
@@ -228,7 +325,7 @@
   padding-bottom: 8px;
 }
 
-#shop-now {
+#buy-now {
   width: 191px;
   height: 56px;
   align-items: center;
@@ -242,7 +339,7 @@
   transition: background 0.3s ease;
 }
 
-#shop-now:hover {
+#buy-now:hover {
   background: #444;
 }
 
@@ -327,7 +424,7 @@
   .hero-content h1 {
     margin-bottom: 16px;
   }
-  .hero-content button {
+  #shop-now {
     width: 100%;
     max-width: 200px;
     margin-top: 16px;
@@ -352,6 +449,70 @@
 
 
 @media only screen and (max-width: 1120px) {
+  .pop-pic {
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+  .pop-pic div {
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 16px;
+    gap: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .pop-pic div img {
+    display: none;
+  }
+  .pop-pic div {
+    display: flex;
+  }
+
+  .pop-pic .pic-text {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  .macbook {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .playstation {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .vision {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .airpod {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .macbook .shop-now {
+    margin: 0;
+    width: 100%;
+  }
+  .pic-text p:nth-child(1) {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .pic-text p:nth-child(2) {
+    font-size: 16px;
+  }
+  .pic-text span {
+    font-size: inherit;
+  }
+  #mob-pic{
+    display: block;
+  }
   .sec6 {
     background-image: url('../asserts/mob baner.png');
     background-size: cover;
@@ -409,7 +570,7 @@
     padding: 24px 12px;
 
   }
-  #shop-now {
+  #buy-now {
     width: 139.5px;
     height: 48px;
   } 
