@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro Max",
+    "size": "6.7 inches",
+    "color": "Deep Purple",
+    "material": "Glass (Ceramic Shield) / Stainless Steel",
+    "price": "$900",
+    "image": "./",
+    "buy_link": "",
+    "model": "iPhone 14 Pro Max",
+    "year": 2022
+  },
+  {
+    "id": 2,
+    "name": "Blackmagic Pocket Cinema Camera",
+    "size": "6K",
+    "color": "Black",
+    "material": "Plastic / Metal",
+    "price": "$2535",
+    "image": "./",
+    "buy_link": "",
+    "model": "Pocket Cinema Camera 6K",
+    "year": 2020
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch Series 9",
+    "size": "41mm",
+    "color": "Starlight",
+    "material": "Aluminum",
+    "price": "$399",
+    "image": "./",
+    "buy_link": "",
+    "model": "Series 9",
+    "year": 2023
+  },
+  {
+    "id": 4,
+    "name": "AirPods Max",
+    "size": "Over-ear",
+    "color": "Silver",
+    "material": "Aluminum / Mesh",
+    "price": "$549",
+    "image": "./",
+    "buy_link": "",
+    "model": "AirPods Max",
+    "year": 2020
+  },
+  {
+    "id": 5,
+    "name": "Samsung Watch6",
+    "size": "47mm",
+    "color": "Black",
+    "material": "Aluminum",
+    "price": "$369",
+    "image": "./",
+    "buy_link": "",
+    "model": "Watch6",
+    "year": 2023
+  },
+  {
+    "id": 6,
+    "name": "Galaxy Z Fold5",
+    "size": "7.6 inches (unfolded)",
+    "color": "Phantom Black",
+    "material": "Glass / Aluminum",
+    "price": "$1799",
+    "image": "./",
+    "buy_link": "",
+    "model": "Z Fold5",
+    "year": 2023
+  },
+  {
+    "id": 7,
+    "name": "Galaxy Buds FE",
+    "size": "In-ear",
+    "color": "Graphite",
+    "material": "Plastic",
+    "price": "$99.99",
+    "image": "./",
+    "buy_link": "",
+    "model": "Buds FE",
+    "year": 2023
+  },
+  {
+    "id": 8,
+    "name": "Apple iPad",
+    "size": "10.2 inches",
+    "color": "Silver",
+    "material": "Aluminum",
+    "price": "$398",
+    "image": "./",
+    "buy_link": "",
+    "model": "iPad (9th Gen)",
+    "year": 2021
+  }
+]
