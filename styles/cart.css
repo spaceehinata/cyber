@@ -151,6 +151,11 @@ section {
 .discount {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+}
+.card p,
+.discount p {
+  margin-bottom: 8px;
 }
 
 .card-number {

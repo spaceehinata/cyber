@@ -323,7 +323,7 @@
   padding-bottom: 8px;
 }
 
-#buy-now {
+.buy-now {
   width: 191px;
   height: 56px;
   align-items: center;
@@ -337,7 +337,7 @@
   transition: background 0.3s ease;
 }
 
-#buy-now:hover {
+.buy-now:hover {
   background: #444;
 }
 
